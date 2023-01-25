@@ -1,0 +1,5 @@
+python-dotenv
+selenium
+openai
+sqlalchemy
+psycopg2
