@@ -47,5 +47,11 @@ class Bids(Base):
             result_url = [r.url for r in result]
             return [q for q in links if q not in result_url]
 
+    @classmethod
+    def get_all(cls):
+        with Session() as session:
+            result = session.query(cls.id).all()
+            return result
 
-Base.metadata.create_all(engine)
+
+# Base.metadata.create_all(engine)

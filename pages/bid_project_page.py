@@ -1,21 +1,16 @@
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 
-from actions import AwaitAction
-from pages.price_action import PriceAction
-from pages.proposal_action import ProposalAction
+from actions import DomAction, PriceAction, ProposalAction
 
 from models.bids import Bids
+import time
 
 
 class BidProjectPage:
-    def __init__(self, driver: webdriver, wait, project_links) -> None:
-        print("start project bid...")
-        self.driver: webdriver = driver
-        self.wait: WebDriverWait = wait
+    def __init__(self, driver, project_links) -> None:
+        self.driver = driver
         self.links: list = project_links
-        self.action: AwaitAction = AwaitAction(wait, self.driver)
+        self.action: DomAction = DomAction(self.driver)
         self.bid_btn_path: str = "//fl-button[@fltrackinglabel='PlaceBidButton']"
         self.nda_link_path: str = "//fl-link[@fltrackinglabel='NDALink']//a"
 
@@ -24,25 +19,22 @@ class BidProjectPage:
     def execute(self) -> None:
         for link in self.links:
             self.action.switch_frame(link)
+            time.sleep(5)  # wait is very important
             self.bid_project(link)
-            self.driver.close()
-            self.action.switch_frame()
-
-        self.driver.close()
-        self.action.switch_frame()
 
     def bid_project(self, link) -> None:
         price_detail = self.get_price()
         if not price_detail:
             return
         price_action: PriceAction = PriceAction(price_detail)
-        proposal_action: ProposalAction = ProposalAction(self.get_description())
         if (
             price_action.is_fit_for_bid()
-            and self.has_bid_btn()
-            and not self.has_complete_profile()
+            and self.action.is_present(self.bid_btn_path)
+            and not self.action.is_present(
+                "//fl-card-header-title[contains(text(), 'Complete your profile')]"
+            )
         ):
-            if self.has_nda():
+            if self.action.is_present(self.nda_link_path):
                 self.sign_nda()
 
             self.action.send_bid_amt(price_action.get_amount())
@@ -51,6 +43,9 @@ class BidProjectPage:
                 self.action.send_keys(
                     "//input[@id='periodInput']", price_action.get_timeline()
                 )
+            proposal_action: ProposalAction = ProposalAction(
+                self.get_description(),
+            )
             proposal = str(
                 f"""\
                 Hi there!
@@ -59,13 +54,30 @@ class BidProjectPage:
                 Isaac
                 """
             ).strip()
-            self.action.send_keys("//textarea[@id='descriptionTextArea']", proposal)
+            self.action.send_keys(
+                "//textarea[@id='descriptionTextArea']",
+                proposal,
+            )
 
             self.seal_bid()
+            self.driver.execute_script(
+                "window.scrollTo(0, document.body.scrollHeight);",
+            )
             self.action.click(self.bid_btn_path)
-            country, city, member_since = self.get_client_details()
+            time.sleep(3)
+            # project_id = self.get_project_id()
+            # self.save_to_db(
+            #     link,
+            #     proposal,
+            #     project_id,
+            # )
+            print(f"Successful Bid on: {link}")
+
+    def save_to_db(self, link, proposal, id):
+        country, city, member_since = self.get_client_details()
+        try:
             bids = Bids(
-                id=self.get_project_id(),
+                id=id,
                 url=link,
                 description=self.get_description(),
                 price_detail=self.get_price(),
@@ -76,20 +88,20 @@ class BidProjectPage:
                 member_since=member_since,
             )
             bids.save()
-            print(f"Successful Bid on: {self.driver.current_url}")
+        except Exception:
+            pass
 
     def sign_nda(self) -> None:
+        if not self.action.is_present(self.nda_link_path):
+            return
         try:
-            el: WebElement = self.action.is_present(self.nda_link_path)
-            el_link: str = el.get_attribute("href")
+            el = self.action.find_element_(self.nda_link_path)
+            el_link = el.get_attribute("href")
             self.action.switch_frame(el_link)
             self.action.click("//div[@id='container_agree_term']")
             self.action.click("//a[contains(text(),'Sign Agreement')]")
-        except Exception as e:
-            print(e)
-
-    def has_nda(self) -> bool:
-        return self.action.find_element_(self.nda_link_path)
+        except Exception:
+            pass
 
     def seal_bid(self) -> None:
         sealed: list[WebElement] = self.action.get_all_elements(
@@ -101,7 +113,7 @@ class BidProjectPage:
             except Exception:
                 pass
 
-    def get_price(self) -> str:
+    def get_price(self):
         return self.action.get_text(
             "//fl-bit[@class='ProjectViewDetails-budget']//fl-text//div"
         )
@@ -109,19 +121,13 @@ class BidProjectPage:
     def get_description(self):
         return self.action.get_text("//fl-bit[@class='ProjectDescription']//span//span")
 
-    def has_bid_btn(self) -> bool:
-        return self.action.is_present(self.bid_btn_path)
-
-    def has_complete_profile(self) -> bool:
-        return self.action.find_element_(
-            "//fl-card-header-title[contains(text(), 'Complete your profile')]"
-        )
-
     def get_skill_tags(self):
         tags_el = self.action.get_all_elements(
             "//fl-tag[@fltrackinglabel='ProjectSkillTag']//fl-link//a"
         )
-        tags = set([i.get_attribute("href").split("/")[-1] for i in tags_el])
+        tags = set(
+            [i.get_attribute("href").split("/")[-1] for i in tags_el],
+        )
         return ", ".join(tags)
 
     def get_project_id(self):

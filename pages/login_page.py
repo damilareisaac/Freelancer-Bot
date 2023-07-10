@@ -1,17 +1,14 @@
-from actions import AwaitAction
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
+import os
+from actions import DomAction
 import time
 
 
 class LoginPage:
-    def __init__(
-        self, driver: webdriver, wait: WebDriverWait, login_details: dict
-    ) -> None:
-        self.driver: webdriver = driver
-        self.username: str = str(login_details["username"])
-        self.password: str = str(login_details["password"])
-        self.action: AwaitAction = AwaitAction(wait, self.driver)
+    def __init__(self, driver) -> None:
+        self.driver = driver
+        self.action: DomAction = DomAction(driver)
+        self.username: str = str(os.environ.get("username"))
+        self.password: str = str(os.environ.get("password"))
 
         self.__login()
         print(self.driver.current_url)
