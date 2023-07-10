@@ -1,3 +1,4 @@
+import logging
 from actions import DomAction
 from selenium.webdriver.remote.webelement import WebElement
 import time
@@ -6,6 +7,7 @@ import time
 class BrowseProjects:
     def __init__(self, driver) -> None:
         print("Browsing projects...")
+        logging.info("Browsing projects...")
         self.driver = driver
         self.action: DomAction = DomAction(self.driver)
         self.action.switch_frame("https://www.freelancer.com/search/projects")
@@ -39,7 +41,8 @@ class BrowseProjects:
     def get_href(self, element):
         try:
             return str(element.get_attribute("href"))
-        except Exception:
+        except Exception as e:
+            logging.error(e)
             return ""
 
     # def get_filtered(self):

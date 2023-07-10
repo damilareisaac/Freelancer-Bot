@@ -1,3 +1,4 @@
+import logging
 from selenium.webdriver.remote.webelement import WebElement
 
 from actions import DomAction, PriceAction, ProposalAction
@@ -71,6 +72,7 @@ class BidProjectPage:
             #     proposal,
             #     project_id,
             # )
+            logging.info(f"Successful Bid on: {link}")
             print(f"Successful Bid on: {link}")
 
     def save_to_db(self, link, proposal, id):
@@ -88,8 +90,8 @@ class BidProjectPage:
                 member_since=member_since,
             )
             bids.save()
-        except Exception:
-            pass
+        except Exception as e:
+            logging.error(e)
 
     def sign_nda(self) -> None:
         if not self.action.is_present(self.nda_link_path):
@@ -100,8 +102,8 @@ class BidProjectPage:
             self.action.switch_frame(el_link)
             self.action.click("//div[@id='container_agree_term']")
             self.action.click("//a[contains(text(),'Sign Agreement')]")
-        except Exception:
-            pass
+        except Exception as e:
+            logging.error(e)
 
     def seal_bid(self) -> None:
         sealed: list[WebElement] = self.action.get_all_elements(

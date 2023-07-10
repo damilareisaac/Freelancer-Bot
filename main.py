@@ -6,6 +6,28 @@ from pages.browse_projects_page import BrowseProjects
 
 load_dotenv(".env")
 
+import logging
+import socket
+from logging.handlers import SysLogHandler
+
+
+class ContextFilter(logging.Filter):
+    hostname = socket.gethostname()
+
+    def filter(self, record):
+        record.hostname = ContextFilter.hostname
+        return True
+
+
+syslog = SysLogHandler(address=("logs2.papertrailapp.com", 15222))
+syslog.addFilter(ContextFilter())
+format = "%(asctime)s %(hostname)s %(funcName)s %(lineno)d : %(message)s"
+formatter = logging.Formatter(format, datefmt="%b %d %H:%M:%S")
+syslog.setFormatter(formatter)
+logger = logging.getLogger()
+logger.addHandler(syslog)
+logger.setLevel(logging.INFO)
+
 
 with DriverContext() as driver:
     driver.get("https://freelancer.com")
@@ -34,6 +56,7 @@ with DriverContext() as driver:
     driver.refresh()
     while True:
         browsed_link: list[str] = BrowseProjects(driver).get_links()
+        logging.info(f"{len(browsed_link)} Available")
         print(f"{len(browsed_link)} Available")
         if len(browsed_link) > 0:
             BidProjectPage(driver, browsed_link)
