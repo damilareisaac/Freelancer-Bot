@@ -3,3 +3,4 @@ selenium
 openai
 sqlalchemy
 psycopg2
+webdriver-manager
