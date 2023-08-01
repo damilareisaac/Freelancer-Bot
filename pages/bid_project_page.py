@@ -1,11 +1,8 @@
 import logging
 from selenium.webdriver.remote.webelement import WebElement
-
 from actions import DomAction, PriceAction, ProposalAction
-
 from models.bids import Bids
 import time
-
 
 class BidProjectPage:
     def __init__(self, driver, project_links) -> None:
@@ -28,52 +25,58 @@ class BidProjectPage:
         if not price_detail:
             return
         price_action: PriceAction = PriceAction(price_detail)
-        if (
-            price_action.is_fit_for_bid()
-            and self.action.is_present(self.bid_btn_path)
-            and not self.action.is_present(
-                "//fl-card-header-title[contains(text(), 'Complete your profile')]"
-            )
+        if (not price_action.is_fit_for_bid() or 
+        not self.action.is_present(self.bid_btn_path) or 
+        self.action.is_present("//fl-card-header-title[contains(text(), 'Complete your profile')]")
         ):
-            if self.action.is_present(self.nda_link_path):
-                self.sign_nda()
+            return
+       
+        if self.action.is_present(self.nda_link_path):
+            self.sign_nda()
 
-            self.action.send_bid_amt(price_action.get_amount())
+        self.action.send_bid_amt(price_action.get_amount())
 
-            if not price_action.is_hourly:
-                self.action.send_keys(
+        if not price_action.is_hourly:
+            self.action.send_keys(
                     "//input[@id='periodInput']", price_action.get_timeline()
-                )
-            proposal_action: ProposalAction = ProposalAction(
-                self.get_description(),
             )
+        
+        proposal_action = ProposalAction()
+        if not proposal_action.check_proposal_in_cache_for_link(link):
+            description_text = self.get_description()
             proposal = str(
                 f"""\
                 Hi there!
-                {proposal_action.get_proposal().strip()}
+                {proposal_action.get_proposal(description_text)}
                 Kind regards,
-                Isaac
+                Isaac \
                 """
-            ).strip()
-            self.action.send_keys(
-                "//textarea[@id='descriptionTextArea']",
-                proposal,
             )
+        else:
+            proposal = proposal_action.check_proposal_in_cache_for_link(link)
+        self.action.send_keys("//textarea[@id='descriptionTextArea']", proposal)
 
-            self.seal_bid()
-            self.driver.execute_script(
+        self.seal_bid()
+        self.driver.execute_script(
                 "window.scrollTo(0, document.body.scrollHeight);",
-            )
-            self.action.click(self.bid_btn_path)
-            time.sleep(3)
-            # project_id = self.get_project_id()
-            # self.save_to_db(
-            #     link,
-            #     proposal,
-            #     project_id,
-            # )
+        )
+        self.action.click(self.bid_btn_path)
+        time.sleep(3)
+        bid_logged = self.check_link_in_previous_bids_page(link)
+        if bid_logged:
             logging.info(f"Successful Bid on: {link}")
             print(f"Successful Bid on: {link}")
+        else:
+            proposal_action.update_bid_cache(link, proposal)
+
+
+    
+    def check_link_in_previous_bids_page(self, link):
+        self.action.open_new_tab("https://www.freelancer.com/manage/work/projects/open?query=&filter=All&quotesFilter=All&show=20&serviceOfferingsFilter=All")
+        bid_links = self.action.get_links("//app-manage-project-title/fl-bit/fl-link/a")
+        self.action.close_current_tab()
+        return link in bid_links
+        
 
     def save_to_db(self, link, proposal, id):
         country, city, member_since = self.get_client_details()

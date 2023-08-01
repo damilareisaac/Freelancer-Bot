@@ -1,3 +1,4 @@
+import logging
 import time
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
@@ -103,9 +104,23 @@ class DomAction:
     def switch_frame(self, url) -> None:
         self.driver.execute_script(f"""window.open("{url}","_self");""")
 
+    def open_new_tab(self, url):
+        self.driver.execute_script(f"""window.open("{url}","_blank");""")
+        self.driver.switch_to.window(self.driver.window_handles[-1])
+
+ 
+    
+    def close_current_tab(self):
+        self.driver.close()
+        self.driver.switch_to.window(self.driver.window_handles[-1])
+
+
+
 
     def send_bid_amt(self, amount) -> None:
-        element: WebElement = self.is_present("//input[@id='bidAmountInput']")
+        if not self.is_present("//input[@id='bidAmountInput']"):
+            return
+        element = self.driver.find_element(by=By.XPATH, value="//input[@id='bidAmountInput']")
         try:
             count: int = 0
             while count < 10:
@@ -114,3 +129,25 @@ class DomAction:
             element.send_keys(amount)
         except Exception as e:
             print(e, "occurred")
+
+
+    def get_links(self, path) -> list:
+        start_time = time.time()
+        prj_tag_els: list[WebElement] = []
+        time.sleep(2)
+        while True:
+            prj_tag_els = self.get_all_elements(path)
+            time.sleep(3)
+            if prj_tag_els or time.time() - start_time > 10:
+                break
+        prj_links: list[str] = [self.get_href(el) for el in prj_tag_els if el]
+        prj_links = [i for i in prj_links if "{[{" not in i]
+        return prj_links
+    
+
+    def get_href(self, element):
+        try:
+            return str(element.get_attribute("href"))
+        except Exception as e:
+            logging.error(e)
+            return ""

@@ -21,6 +21,7 @@ class ContextFilter(logging.Filter):
 
 syslog = SysLogHandler(address=("logs2.papertrailapp.com", 15222))
 syslog.addFilter(ContextFilter())
+
 format = "%(asctime)s %(hostname)s %(funcName)s %(lineno)d : %(message)s"
 formatter = logging.Formatter(format, datefmt="%b %d %H:%M:%S")
 syslog.setFormatter(formatter)
