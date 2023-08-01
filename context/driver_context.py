@@ -20,13 +20,13 @@ class DriverContext:
         current_mode: str = (
             "headless" if InputArgParser.is_headless() else "with-header"
         )
-        print(f"Current Mode {current_mode}")
+        print(f"Current Mode: {current_mode}")
         if InputArgParser.is_headless():
             options.add_argument("--headless")
 
 
 
-        self.driver: Firefox = Firefox()
+        self.driver: Firefox = Firefox(options=options)
 
         self.driver.maximize_window()
 
