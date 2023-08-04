@@ -95,10 +95,8 @@ class BidProjectPage:
             logger(to_console=True).error("Bid cannot be saved to database: %s" % e)
 
     def sign_nda(self) -> None:
-        if not self.action.is_present(self.nda_link_path):
-            return
         try:
-            el = self.action.find_element_(self.nda_link_path)
+            el = self.action.find_element(self.nda_link_path)
             el_link = el.get_attribute("href")
             self.action.switch_frame(el_link)
             self.action.click("//div[@id='container_agree_term']")
