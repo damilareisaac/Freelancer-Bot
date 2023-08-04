@@ -1,4 +1,6 @@
 from selenium.webdriver import Firefox, FirefoxOptions
+# from webdriver_manager.firefox import GeckoDriverManager
+# from selenium.webdriver.firefox.service import Service as FirefoxService
 
 from arg_parser import InputArgParser
 
@@ -25,6 +27,8 @@ class DriverContext:
             options.add_argument("--headless")
 
 
+
+        # self.driver = Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
         self.driver: Firefox = Firefox(options=options)
 

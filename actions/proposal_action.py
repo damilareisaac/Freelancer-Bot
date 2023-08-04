@@ -18,14 +18,18 @@ class ProposalAction:
 
     def get_proposal(self, description) -> str:
         hint = str(
-            f"I can help you complete your  project stated as follows {description}"
+            f"""
+            I can help you complete your  project stated as follows 
+            {description}
+
+            """
         )
         try:
             res: Any = openai.Completion.create(
                 model="text-davinci-003",
                 prompt=hint,
                 max_tokens=200,
-                temperature=0.6,
+                temperature=0.7,
             )
             response_text = res.choices[0].text
             if not response_text.strip() or len(response_text) < 100:

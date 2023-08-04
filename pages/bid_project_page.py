@@ -5,20 +5,12 @@ from models.bids import Bids
 import time
 
 class BidProjectPage:
-    def __init__(self, driver, project_links) -> None:
+    def __init__(self, driver) -> None:
         self.driver = driver
-        self.links: list = project_links
         self.action: DomAction = DomAction(self.driver)
         self.bid_btn_path: str = "//fl-button[@fltrackinglabel='PlaceBidButton']"
         self.nda_link_path: str = "//fl-link[@fltrackinglabel='NDALink']//a"
 
-        self.execute()
-
-    def execute(self) -> None:
-        for link in self.links:
-            self.action.switch_frame(link)
-            time.sleep(5)  # wait is very important
-            self.bid_project(link)
 
     def bid_project(self, link) -> None:
         price_detail = self.get_price()
