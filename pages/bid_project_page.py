@@ -58,6 +58,7 @@ class BidProjectPage:
         if bid_logged:
             logging.info(f"Successful Bid on: {link}")
             print(f"Successful Bid on: {link}")
+            proposal_action.delete_proposal_from_cache()
         else:
             proposal_action.update_bid_cache(link, proposal)
 

@@ -56,6 +56,13 @@ class ProposalAction:
             bid_cache.update({link:proposal})
             json.dump(bid_cache, f, indent=4)
 
+    def delete_proposal_from_cache(self, link):
+        bid_cache = self.read_bid_cache()
+        if link in bid_cache:
+            del bid_cache[link]
+        with open("bid_cache.json", "w+") as f:
+            json.dump(bid_cache, f, indent=4)
+
     
     def check_proposal_in_cache_for_link(self, link):
        bid_cache = self.read_bid_cache()
