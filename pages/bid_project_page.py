@@ -1,8 +1,11 @@
-import logging
+from functools import partial
 from selenium.webdriver.remote.webelement import WebElement
 from actions import DomAction, PriceAction, ProposalAction
+from logs import get_logger
 from models.bids import Bids
 import time
+
+logger = partial(get_logger, __name__)
 
 class BidProjectPage:
     def __init__(self, driver) -> None:
@@ -15,16 +18,19 @@ class BidProjectPage:
     def bid_project(self, link) -> None:
         price_detail = self.get_price()
         if not price_detail:
+            logger(to_console=True).info("No price details found")
             return
         price_action: PriceAction = PriceAction(price_detail)
         if (not price_action.is_fit_for_bid() or 
         not self.action.is_present(self.bid_btn_path) or 
         self.action.is_present("//fl-card-header-title[contains(text(), 'Complete your profile')]")
         ):
+            
             return
        
         if self.action.is_present(self.nda_link_path):
             self.sign_nda()
+            logger().info(f"SIGNED NDA for {link}")
 
         self.action.send_bid_amt(price_action.get_amount())
 
@@ -56,8 +62,7 @@ class BidProjectPage:
         time.sleep(3)
         bid_logged = self.check_link_in_previous_bids_page(link)
         if bid_logged:
-            logging.info(f"Successful Bid on: {link}")
-            print(f"Successful Bid on: {link}")
+            logger(to_console=True).info(f"Successful Bid on: {link}")
             proposal_action.delete_proposal_from_cache(link)
         else:
             proposal_action.update_bid_cache(link, proposal)
@@ -87,7 +92,7 @@ class BidProjectPage:
             )
             bids.save()
         except Exception as e:
-            logging.error(e)
+            logger(to_console=True).error("Bid cannot be saved to database: %s" % e)
 
     def sign_nda(self) -> None:
         if not self.action.is_present(self.nda_link_path):
@@ -99,7 +104,8 @@ class BidProjectPage:
             self.action.click("//div[@id='container_agree_term']")
             self.action.click("//a[contains(text(),'Sign Agreement')]")
         except Exception as e:
-            logging.error(e)
+            logger().error("Unable to sign NDA")
+            logger().exception(e)
 
     def seal_bid(self) -> None:
         sealed: list[WebElement] = self.action.get_all_elements(
@@ -108,8 +114,9 @@ class BidProjectPage:
         for item in sealed:
             try:
                 item.click()
-            except Exception:
-                pass
+            except Exception as e:
+                logger().error("Unable to seal bid")
+                logger().exception(e)
 
     def get_price(self):
         return self.action.get_text(

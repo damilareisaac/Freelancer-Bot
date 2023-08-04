@@ -1,9 +1,12 @@
+from functools import partial
 import os
 import json
-import logging
 import openai
 from typing import Any
 
+from logs import get_logger
+
+logger = partial(get_logger, __name__)
 default_proposal = """I have read through your project description,\
 I can help you complete the project. I will be looking forward to hearing from you \
 to discuss it further."""
@@ -33,21 +36,24 @@ class ProposalAction:
                 temperature=0.7,
             )
             response_text = res.choices[0].text.strip()
-            if not response_text or len(response_text) < 100:
-                if len(response_text)  > 1500:
-                    return f"{response_text[:1400]}..."
+            if not response_text:
+                logger(to_console=True).error("Empty proposal from OPENAI")
                 return default_proposal
+            if len(response_text)  > 1500:
+                logger().info(f"OPENAI response of lenght {len(response_text)} is too long, truncating...")
+                return f"{response_text[:1400]}..."
+                
             return response_text
         except Exception as e:
-            logging.exception(f"Error in OPENAI: {e}")
-            print(f"Error in OPENAI: {e}")
+            logger(to_console=True).exception(f"Error in OPENAI: {e}")
             return default_proposal
         
     def read_bid_cache(self):
         with open("bid_cache.json", "r+") as f:
             try:
                 json_file = json.load(f)
-            except Exception:
+            except Exception as e:
+                logger().exception(f"Error reading bid json file: {e}")
                 json_file = {}
         return json_file
 

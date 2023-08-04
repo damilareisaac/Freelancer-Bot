@@ -1,17 +1,18 @@
-import logging
+from functools import partial
 from actions import DomAction
 from selenium.webdriver.remote.webelement import WebElement
 import time
 
+from logs import get_logger
+
+logger = partial(get_logger, __name__)
 
 class BrowseProjects:
     def __init__(self, driver) -> None:
-        print("Browsing projects...")
-        logging.info("Browsing projects...")
+        logger(to_console=True).info("Browsing projects...")
         self.driver = driver
         self.action: DomAction = DomAction(self.driver)
         self.action.switch_frame("https://www.freelancer.com/search/projects")
-
     
 
     def get_links(self):
@@ -28,12 +29,3 @@ class BrowseProjects:
                 break
         result = ["" if "sealed" in el.text.lower() else el.text for el in prices_el]
         return result
-
-    
-
-    # def get_filtered(self):
-    #     return [
-    #         link
-    #         for price, link in zip(self.prices, self.links)
-    #         if Bids.filter(link) and PriceAction(price).is_fit_for_bid()
-    #     ]

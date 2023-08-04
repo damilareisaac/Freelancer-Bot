@@ -1,4 +1,4 @@
-import logging
+from functools import partial
 import time
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
@@ -10,6 +10,10 @@ from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import ElementClickInterceptedException
 
 from config import timeout
+from logs import get_logger
+
+
+logger = get_logger(__name__)
 
 class DomAction:
     def __init__(self, driver) -> None:
@@ -24,6 +28,7 @@ class DomAction:
                 (By.XPATH, x_path)))
             return True
         except Exception:
+            logger.exception(f"Element {x_path} is not present")
             return False
         
     def is_visible(self, x_path) -> bool:
@@ -32,6 +37,7 @@ class DomAction:
                 (By.XPATH, x_path)))
             return True
         except Exception:
+            logger.exception(f"Element {x_path} is not visible")
             return False
 
     def click(self, x_path) -> None:
@@ -43,7 +49,7 @@ class DomAction:
         except ElementClickInterceptedException:
             self.driver.execute_script(self.arg_click, element)
         except Exception:
-            pass
+            logger.exception(f"Element {x_path} is not clickable")
 
     def check_element(self, x_path) -> None:
         if not self.is_present(x_path):
@@ -55,6 +61,7 @@ class DomAction:
         try:
             element.click()
         except ElementClickInterceptedException:
+            logger.exception(f"Element {x_path} is not clickable")
             self.driver.execute_script(self.arg_click, element)
 
 
@@ -68,13 +75,13 @@ class DomAction:
             if _return:
                 element.send_keys(Keys.ENTER)
         except Exception:
-            pass
+            logger.exception(f"Cannot send key to {x_path}")
         time.sleep(0.5)
 
     def send_keys(self, x_path, keys, _return=False) -> None:
         element = self.driver.find_element(by=By.XPATH, value=x_path)
         if not element:
-            print(f"Element with {x_path} not found")
+            logger.info(f"Element with {x_path} not found")
             return
         while element.get_attribute("value").strip() != keys.strip():
             try:
@@ -83,22 +90,26 @@ class DomAction:
                 if _return:
                     element.send_keys(Keys.ENTER)
             except Exception:
+                logger.exception(f"Cannot send key to {x_path}")
                 break
 
     def get_all_elements(self, x_path) -> list:
         try:
             return self.wait.until(EC.presence_of_all_elements_located(
                 (By.XPATH, x_path)))
-        except TimeoutException:
+        except TimeoutException as e:
+            logger.exception(e)
             return []
 
     def get_text(self, x_path) -> str:
         element = self.driver.find_element(by=By.XPATH, value=x_path)
         if not element:
+            logger.info(f"Element/Text with {x_path} not found")
             return ""
         try:
             return element.text.strip()
-        except Exception:
+        except Exception as e:
+            logger.exception(e)
             return ""
 
     def switch_frame(self, url) -> None:
@@ -118,9 +129,10 @@ class DomAction:
 
 
     def send_bid_amt(self, amount) -> None:
-        if not self.is_present("//input[@id='bidAmountInput']"):
+        x_path = "//input[@id='bidAmountInput']"
+        if not self.is_present(x_path):
             return
-        element = self.driver.find_element(by=By.XPATH, value="//input[@id='bidAmountInput']")
+        element = self.driver.find_element(by=By.XPATH, value=x_path)
         try:
             count: int = 0
             while count < 10:
@@ -128,7 +140,7 @@ class DomAction:
                 count += 1
             element.send_keys(amount)
         except Exception as e:
-            print(e, "occurred")
+            logger.exception(f"Unable to send bid amount {amount} for {x_path}")
 
 
     def get_links(self, path) -> list:
@@ -139,6 +151,7 @@ class DomAction:
             prj_tag_els = self.get_all_elements(path)
             time.sleep(3)
             if prj_tag_els or time.time() - start_time > 10:
+                logger.info(f"Timeout waiting for element in {path} to load")
                 break
         prj_links: list[str] = [self.get_href(el) for el in prj_tag_els if el]
         prj_links = [i for i in prj_links if "{[{" not in i]
@@ -149,5 +162,5 @@ class DomAction:
         try:
             return str(element.get_attribute("href"))
         except Exception as e:
-            logging.error(e)
+            logger.error(e)
             return ""

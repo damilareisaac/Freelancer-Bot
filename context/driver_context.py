@@ -1,9 +1,12 @@
+from functools import partial
 from selenium.webdriver import Firefox, FirefoxOptions
 # from webdriver_manager.firefox import GeckoDriverManager
 # from selenium.webdriver.firefox.service import Service as FirefoxService
 
 from arg_parser import InputArgParser
+from logs import get_logger
 
+logger = partial(get_logger, __name__)
 
 class DriverContext:
 
@@ -22,7 +25,7 @@ class DriverContext:
         current_mode: str = (
             "headless" if InputArgParser.is_headless() else "with-header"
         )
-        print(f"Current Mode: {current_mode}")
+        logger(to_console=True).info(f"Current Mode: {current_mode}")
         if InputArgParser.is_headless():
             options.add_argument("--headless")
 
@@ -38,7 +41,7 @@ class DriverContext:
         return self.driver
 
     def __exit__(self, exc_type, exc_value, trace) -> bool:
-        print(f"{exc_type} {exc_value} {trace}")
-        # TODO: Implement the logger on error or success. 
-        #       Test current class
+        if exc_type:
+            logger().exception(f"{trace}")
+        logger().info("Exiting driver context")
         return True
