@@ -4,7 +4,7 @@ import logging
 import openai
 from typing import Any
 
-default = """I have read through your project description,\
+default_proposal = """I have read through your project description,\
 I can help you complete the project. I will be looking forward to hearing from you \
 to discuss it further."""
 
@@ -15,6 +15,7 @@ class ProposalAction:
         open_ai_api_key: str = str(os.environ.get("OPEN_AI_API_KEY"))
         openai.organization = open_ai_org_key
         openai.api_key = open_ai_api_key
+        self.bid_cache_file_path = "bid_cache.json"
 
     def get_proposal(self, description) -> str:
         hint = str(
@@ -33,13 +34,14 @@ class ProposalAction:
             )
             response_text = res.choices[0].text.strip()
             if not response_text or len(response_text) < 100:
-                return default
-            if len(response_text)  > 1500:
-                return f"{response_text[:1400]}..."
-            return response_text.strip()
+                if len(response_text)  > 1500:
+                    return f"{response_text[:1400]}..."
+                return default_proposal
+            return response_text
         except Exception as e:
             logging.exception(f"Error in OPENAI: {e}")
-            return hint
+            print(f"Error in OPENAI: {e}")
+            return default_proposal
         
     def read_bid_cache(self):
         with open("bid_cache.json", "r+") as f:
@@ -52,7 +54,7 @@ class ProposalAction:
 
     def update_bid_cache(self, link, proposal):
         bid_cache = self.read_bid_cache()
-        with open("bid_cache.json", "w+") as f:
+        with open(self.bid_cache_file_path, "w+") as f:
             bid_cache.update({link:proposal})
             json.dump(bid_cache, f, indent=4)
 
@@ -60,7 +62,7 @@ class ProposalAction:
         bid_cache = self.read_bid_cache()
         if link in bid_cache:
             del bid_cache[link]
-        with open("bid_cache.json", "w+") as f:
+        with open(self.bid_cache_file_path, "w+") as f:
             json.dump(bid_cache, f, indent=4)
 
     
