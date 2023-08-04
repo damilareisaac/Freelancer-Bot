@@ -23,7 +23,7 @@ class BidProjectPage:
             try:
                 self.bid_project(link)
             except Exception:
-                logger(to_console=True).info(f"Unable to complete bid on {link}: e")
+                logger(to_console=True).info(f"Unable to complete bid on {link}")
                 continue
 
 

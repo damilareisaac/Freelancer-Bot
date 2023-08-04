@@ -31,4 +31,6 @@ with DriverContext() as driver:
 
         if len(project_links) > 0:
             BidProjectPage(driver, project_links)
+        else:
+            logger(to_console=True).info("No projects to bid in this round")
         time.sleep(120)
