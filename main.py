@@ -26,16 +26,9 @@ with DriverContext() as driver:
         }
     )
     while True:
-        browsed_link = BrowseProjects(driver).get_links()
-        logger(to_console=True).info(f"Browsed {len(browsed_link)} projects")
+        project_links = BrowseProjects(driver).get_links()
+        logger(to_console=True).info(f"Browsed {len(project_links)} projects")
 
-        if len(browsed_link) > 0:
-            for link in browsed_link:
-                action.switch_frame(link)
-                time.sleep(5)
-                try:
-                    BidProjectPage(driver).bid_project(link)
-                except Exception:
-                    logger(to_console=True).info(f"Unable to complete bid on {link}")
-                    continue
+        if len(project_links) > 0:
+            BidProjectPage(driver, project_links)
         time.sleep(120)

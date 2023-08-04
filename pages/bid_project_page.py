@@ -8,11 +8,23 @@ import time
 logger = partial(get_logger, __name__)
 
 class BidProjectPage:
-    def __init__(self, driver) -> None:
+    def __init__(self, driver, project_links) -> None:
+        self.project_links = project_links
         self.driver = driver
         self.action: DomAction = DomAction(self.driver)
         self.bid_btn_path: str = "//fl-button[@fltrackinglabel='PlaceBidButton']"
         self.nda_link_path: str = "//fl-link[@fltrackinglabel='NDALink']//a"
+        self.execute()
+
+    def execute(self):
+        for link in self.project_links:
+            self.action.switch_frame(link)
+            time.sleep(3)
+            try:
+                self.bid_project(link)
+            except Exception:
+                logger(to_console=True).info(f"Unable to complete bid on {link}: e")
+                continue
 
 
     def bid_project(self, link) -> None:
@@ -54,7 +66,7 @@ class BidProjectPage:
             proposal = proposal_action.check_proposal_in_cache_for_link(link)
         self.action.send_keys("//textarea[@id='descriptionTextArea']", proposal)
 
-        self.seal_bid()
+        self.seal_bid(link)
         self.driver.execute_script(
                 "window.scrollTo(0, document.body.scrollHeight);",
         )
@@ -105,16 +117,15 @@ class BidProjectPage:
             logger().error("Unable to sign NDA")
             logger().exception(e)
 
-    def seal_bid(self) -> None:
+    def seal_bid(self, link) -> None:
         sealed: list[WebElement] = self.action.get_all_elements(
             "//fl-upgrade-tag[@data-upgrade-type='sealed']"
         )
         for item in sealed:
             try:
                 item.click()
-            except Exception as e:
-                logger().error("Unable to seal bid")
-                logger().exception(e)
+            except Exception:
+                logger().info(f"Unable to seal bid {link}")
 
     def get_price(self):
         return self.action.get_text(

@@ -1461,3 +1461,2421 @@ WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
 NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
 dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
 
+2023-08-04 11:55:42,697 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:55:42,697 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:55:58,131 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:55:58,131 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:56:13,422 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:56:13,422 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:58:13,502 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 11:58:13,502 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 11:58:13,502 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 11:58:13,502 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 11:58:21,417 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 11:58:21,417 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:21,576 - __main__ - INFO - Browsed 20 projects
+2023-08-04 11:58:52,317 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:58:52,317 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:59:12,789 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:59:12,789 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:59:33,121 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 11:59:33,121 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:03,014 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:03,014 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:18,655 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:18,655 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:33,909 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:33,909 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:49,211 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:49,211 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:59,402 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:59,402 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:00:59,632 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:01:14,885 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:01:14,885 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:01:25,151 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:01:25,151 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:25,479 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:01:40,732 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:01:40,732 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:01,118 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:01,118 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:16,434 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:16,434 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:31,715 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:02:31,715 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:31,736 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:04:40,127 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:04:40,127 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:40,562 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:04:55,945 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:04:55,945 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:05:06,154 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:05:06,154 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:05:11,076 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:05:11,076 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:05:11,076 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:05:11,076 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:11,077 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 114, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:05:19,700 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:05:19,700 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:19,944 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/python/Programmer-Google-for-jobs-indexing
+2023-08-04 12:05:50,376 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:05:50,376 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:10,733 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:10,733 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:31,079 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:31,079 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:56,498 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:06:56,498 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:11,768 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:11,768 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:27,036 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:27,036 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:42,328 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:42,328 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:52,524 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:52,524 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:07:52,744 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:08:08,005 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:08,005 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:18,193 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:18,193 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:18,461 - __main__ - INFO - Unable to complete bid on https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:08:33,773 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:33,773 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:54,181 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:08:54,181 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:09:09,475 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:09:09,475 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:09,509 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:15,769 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:11:15,769 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:15,959 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:36,401 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:11:36,401 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:11:41,606 - context.driver_context - ERROR - <traceback object at 0x117030540>
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/main.py", line 35, in <module>
+KeyboardInterrupt
+2023-08-04 12:11:41,606 - context.driver_context - ERROR - <traceback object at 0x117030540>
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/main.py", line 35, in <module>
+KeyboardInterrupt
+2023-08-04 12:11:41,606 - context.driver_context - ERROR - <traceback object at 0x117030540>
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/main.py", line 35, in <module>
+KeyboardInterrupt
+2023-08-04 12:11:41,606 - context.driver_context - ERROR - <traceback object at 0x117030540>
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/main.py", line 35, in <module>
+KeyboardInterrupt
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:41,628 - context.driver_context - INFO - Exiting driver context
+2023-08-04 12:11:44,424 - context.driver_context - INFO - Current Mode: headless
+2023-08-04 12:11:44,424 - context.driver_context - INFO - Current Mode: headless
+2023-08-04 12:11:48,791 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:48,791 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:11:56,039 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:11:56,039 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:11:56,127 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:11:56,127 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:12:12,930 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:12:12,930 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:12:36,066 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:12:36,066 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:12:52,716 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:12:52,716 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:09,052 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:09,052 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:28,879 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:28,879 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:32,203 - pages.bid_project_page - INFO - Unable to complete bid on https://www.freelancer.com/projects/python/google-cloud-automl-code-migration: e
+2023-08-04 12:13:32,203 - pages.bid_project_page - INFO - Unable to complete bid on https://www.freelancer.com/projects/python/google-cloud-automl-code-migration: e
+2023-08-04 12:13:46,072 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:46,072 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:59,335 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:13:59,335 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:09,534 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:09,534 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:15,381 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:15,381 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:15,381 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:15,381 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:15,387 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:23,965 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:14:23,965 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:24,099 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/tableau/Tableau-server-administration
+2023-08-04 12:14:37,356 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:37,356 - actions.dom_action - ERROR - Element //fl-card-header-title[contains(text(), 'Complete your profile')] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:47,601 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:47,601 - actions.dom_action - ERROR - Element //fl-link[@fltrackinglabel='NDALink']//a is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,340 - pages.bid_project_page - ERROR - Unable to seal bid
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:50,344 - pages.bid_project_page - ERROR - Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/pages/bid_project_page.py", line 126, in seal_bid
+    item.click()
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <fl-upgrade-tag class="UpgradeItem-tag"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-04 12:14:58,871 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:14:58,871 - actions.dom_action - INFO - Timeout waiting for element in //app-manage-project-title/fl-bit/fl-link/a to load
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:14:59,137 - pages.bid_project_page - INFO - Successful Bid on: https://www.freelancer.com/projects/c-programming/OSINT-SOFTWARE-FORENSIC-CHAIN
+2023-08-04 12:15:12,514 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:15:12,514 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:15:29,107 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:15:29,107 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:17:29,132 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:17:29,132 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:17:29,132 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:17:29,132 - pages.browse_projects_page - INFO - Browsing projects...
+2023-08-04 12:17:36,324 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:17:36,324 - actions.dom_action - INFO - Timeout waiting for element in //fl-project-contest-card/parent::a | //a[@class='search-result-link'] to load
+2023-08-04 12:17:36,499 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:17:36,499 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:17:36,499 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:17:36,499 - __main__ - INFO - Browsed 20 projects
+2023-08-04 12:17:52,864 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:17:52,864 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:15,355 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:15,355 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:31,781 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:31,781 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:48,194 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:18:48,194 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:07,737 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:07,737 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:21,034 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:21,034 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:34,325 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:34,325 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:47,638 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:19:47,638 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:00,967 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:00,967 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:14,239 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:14,239 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:30,603 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-04 12:20:30,603 - actions.dom_action - ERROR - Element //fl-button[@fltrackinglabel='PlaceBidButton'] is not present
+Traceback (most recent call last):
+  File "/Users/isaacomolewa/CWD/Freelancer-Bot/actions/dom_action.py", line 27, in is_present
+    self.wait.until(EC.presence_of_element_located(
+  File "/Users/isaacomolewa/.pyenv/versions/3.11.4/lib/python3.11/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
