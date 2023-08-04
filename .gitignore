@@ -3,4 +3,4 @@
 *.pyc
 geckodriver.log
 .DS_Store
-my_app.log
+bid_cache.json
