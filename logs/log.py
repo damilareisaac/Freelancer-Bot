@@ -40,7 +40,6 @@ def get_papertail_handler():
 
 def get_logger(logger_name, to_console=False) -> logging.Logger:
     
-    to_console = True if to_console else False
     logger = logging.getLogger(logger_name)
 
     logger.setLevel(logging.DEBUG) # better to have too much log than not enough
