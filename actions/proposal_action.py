@@ -31,12 +31,14 @@ class ProposalAction:
                 max_tokens=200,
                 temperature=0.7,
             )
-            response_text = res.choices[0].text
-            if not response_text.strip() or len(response_text) < 100:
+            response_text = res.choices[0].text.strip()
+            if not response_text or len(response_text) < 100:
                 return default
+            if len(response_text)  > 1500:
+                return f"{response_text[:1400]}..."
             return response_text.strip()
         except Exception as e:
-            logging.exception("Error creating proposal with OPENAI")
+            logging.exception(f"Error in OPENAI: {e}")
             return hint
         
     def read_bid_cache(self):
