@@ -30,6 +30,8 @@ class DomAction:
         except Exception:
             logger.exception(f"Element {x_path} is not present")
             return False
+    
+    
         
     def is_visible(self, x_path) -> bool:
         try:
@@ -39,6 +41,11 @@ class DomAction:
         except Exception:
             logger.exception(f"Element {x_path} is not visible")
             return False
+        
+    def find_element(self, x_path) -> WebElement | None:
+        if not self.is_present(x_path):
+            return None
+        return self.driver.find_element(by=By.XPATH, value=x_path)
 
     def click(self, x_path) -> None:
         if not self.is_present(x_path):
