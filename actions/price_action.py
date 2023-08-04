@@ -30,10 +30,6 @@ class PriceAction:
 
     def get_amount(self) -> int:
         return self.upper
-        # if ((self.upper - self.lower) < 20) or self.has_plus:
-        #     return self.upper
-
-        # return round(self.upper * 0.8)
 
     def get_timeline(self) -> str:
         period: int = int(self.upper / 60)
