@@ -6,6 +6,8 @@ from logging.handlers import SysLogHandler, TimedRotatingFileHandler
 
 FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 paper_trail_format = "%(asctime)s %(hostname)s %(funcName)s %(lineno)d : %(message)s"
+paper_trail_format = logging.Formatter(paper_trail_format, datefmt="%b %d %H:%M:%S")
+
 LOG_FILE = "my_app.log"
 
 
@@ -36,7 +38,7 @@ def get_papertail_handler():
 
 
 
-def get_logger(logger_name, to_console) -> logging.Logger:
+def get_logger(logger_name, to_console=False) -> logging.Logger:
     
     to_console = True if to_console else False
     logger = logging.getLogger(logger_name)
