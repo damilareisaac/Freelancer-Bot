@@ -4,7 +4,7 @@ import sys
 import socket
 from logging.handlers import SysLogHandler, TimedRotatingFileHandler
 
-FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+FORMATTER = logging.Formatter("%(asctime)s - %(name)s: %(lineno)d - %(levelname)s - %(message)s")
 paper_trail_format = "%(asctime)s %(hostname)s %(funcName)s %(lineno)d : %(message)s"
 paper_trail_format = logging.Formatter(paper_trail_format, datefmt="%b %d %H:%M:%S")
 
