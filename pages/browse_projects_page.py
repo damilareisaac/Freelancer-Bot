@@ -22,8 +22,8 @@ class BrowseProjects:
         prices_el: list[WebElement] = []
         while True:
             prices_el = self.action.get_all_elements(
-                "//fl-text[@class='AverageBid-amount']/div | //fl-upgrade-tag[@class='Sealed']",
-            )
+                "//fl-text[@class='AverageBid-amount']/div | //fl-upgrade-tag[@class='Sealed']"
+                )
             time.sleep(3)
             if prices_el:
                 break

@@ -18,7 +18,7 @@ with DriverContext() as driver:
     driver.get("https://freelancer.com")
     action = DomAction(driver)
 
-    driver.add_cookie({"name": "GETAFREE_USER_ID","value": "11122738"})
+    driver.add_cookie({"name": "GETAFREE_USER_ID", "value": "11122738"})
     driver.add_cookie(
         {
             "name": "GETAFREE_AUTH_HASH_V2",
@@ -30,7 +30,13 @@ with DriverContext() as driver:
         logger(to_console=True).info(f"Browsed {len(project_links)} projects")
 
         if len(project_links) > 0:
+            for link in project_links:
+                action.switch_frame(link)
+                time.sleep(5)
+            try:
+                BidProjectPage(driver).bid_project(link)
+            except Exception:
+                logger().info(f"Unable to complete bid on {link}")
+                continue
             BidProjectPage(driver, project_links)
-        else:
-            logger(to_console=True).info("No projects to bid in this round")
         time.sleep(120)

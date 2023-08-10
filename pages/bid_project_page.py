@@ -7,6 +7,7 @@ import time
 
 logger = partial(get_logger, __name__)
 
+
 class BidProjectPage:
     def __init__(self, driver, project_links) -> None:
         self.project_links = project_links
@@ -14,18 +15,6 @@ class BidProjectPage:
         self.action: DomAction = DomAction(self.driver)
         self.bid_btn_path: str = "//fl-button[@fltrackinglabel='PlaceBidButton']"
         self.nda_link_path: str = "//fl-link[@fltrackinglabel='NDALink']//a"
-        self.execute()
-
-    def execute(self):
-        for link in self.project_links:
-            self.action.switch_frame(link)
-            time.sleep(3)
-            try:
-                self.bid_project(link)
-            except Exception:
-                logger(to_console=True).info(f"Unable to complete bid on {link}")
-                continue
-
 
     def bid_project(self, link) -> None:
         price_detail = self.get_price()
@@ -33,13 +22,15 @@ class BidProjectPage:
             logger(to_console=True).info("No price details found")
             return
         price_action: PriceAction = PriceAction(price_detail)
-        if (not price_action.is_fit_for_bid() or 
-        not self.action.is_present(self.bid_btn_path) or 
-        self.action.is_present("//fl-card-header-title[contains(text(), 'Complete your profile')]")
+        if (
+            not price_action.is_fit_for_bid()
+            or not self.action.is_present(self.bid_btn_path)
+            or self.action.is_present(
+                "//fl-card-header-title[contains(text(), 'Complete your profile')]"
+            )
         ):
-            
             return
-       
+
         if self.action.is_present(self.nda_link_path):
             self.sign_nda()
             logger().info(f"SIGNED NDA for {link}")
@@ -48,9 +39,9 @@ class BidProjectPage:
 
         if not price_action.is_hourly:
             self.action.send_keys(
-                    "//input[@id='periodInput']", price_action.get_timeline()
+                "//input[@id='periodInput']", price_action.get_timeline()
             )
-        
+
         proposal_action = ProposalAction()
         if not proposal_action.check_proposal_in_cache_for_link(link):
             description_text = self.get_description()
@@ -68,7 +59,7 @@ class BidProjectPage:
 
         self.seal_bid(link)
         self.driver.execute_script(
-                "window.scrollTo(0, document.body.scrollHeight);",
+            "window.scrollTo(0, document.body.scrollHeight);",
         )
         self.action.click(self.bid_btn_path)
         time.sleep(3)
@@ -79,14 +70,13 @@ class BidProjectPage:
         else:
             proposal_action.update_bid_cache(link, proposal)
 
-
-    
     def check_link_in_previous_bids_page(self, link):
-        self.action.open_new_tab("https://www.freelancer.com/manage/work/projects/open?query=&filter=All&quotesFilter=All&show=20&serviceOfferingsFilter=All")
+        self.action.open_new_tab(
+            "https://www.freelancer.com/manage/work/projects/open?query=&filter=All&quotesFilter=All&show=20&serviceOfferingsFilter=All"
+        )
         bid_links = self.action.get_links("//app-manage-project-title/fl-bit/fl-link/a")
         self.action.close_current_tab()
         return link in bid_links
-        
 
     def save_to_db(self, link, proposal, id):
         country, city, member_since = self.get_client_details()
