@@ -47,7 +47,6 @@ def get_logger(logger_name, to_console=False) -> logging.Logger:
     
     
     logger.addHandler(get_file_handler())
-    logger.addHandler(get_file_handler())
     logger.addHandler(get_papertail_handler())
 
     if to_console:
