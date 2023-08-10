@@ -33,7 +33,7 @@ class ProposalAction:
                 model="text-davinci-003",
                 prompt=hint,
                 max_tokens=200,
-                temperature=0.7,
+                temperature=0.5,
             )
             response_text = res.choices[0].text.strip()
             if not response_text:
