@@ -29,14 +29,15 @@ with DriverContext() as driver:
         project_links = BrowseProjects(driver).get_links()
         logger(to_console=True).info(f"Browsed {len(project_links)} projects")
 
-        if len(project_links) > 0:
+        if len(project_links) >= 20:
             for link in project_links:
                 action.switch_frame(link)
                 time.sleep(5)
-            try:
-                BidProjectPage(driver).bid_project(link)
-            except Exception:
-                logger().info(f"Unable to complete bid on {link}")
-                continue
-            BidProjectPage(driver, project_links)
-        time.sleep(120)
+                try:
+                    BidProjectPage(driver).bid_project(link)
+                except Exception as e:
+                    print(e)
+                    logger().info(f"Unable to complete bid on {link}")
+                    continue
+        # wait 5 minutes before checking again
+        time.sleep(240)
