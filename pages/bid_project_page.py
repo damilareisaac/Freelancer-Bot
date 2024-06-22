@@ -4,13 +4,13 @@ from actions import DomAction, PriceAction, ProposalAction
 from logs import get_logger
 from models.bids import Bids
 import time
+from xpath import PRJ_DESC
 
 logger = partial(get_logger, __name__)
 
 
 class BidProjectPage:
-    def __init__(self, driver, project_links) -> None:
-        self.project_links = project_links
+    def __init__(self, driver) -> None:
         self.driver = driver
         self.action: DomAction = DomAction(self.driver)
         self.bid_btn_path: str = "//fl-button[@fltrackinglabel='PlaceBidButton']"
@@ -36,7 +36,6 @@ class BidProjectPage:
             logger().info(f"SIGNED NDA for {link}")
 
         self.action.send_bid_amt(price_action.get_amount())
-
         if not price_action.is_hourly:
             self.action.send_keys(
                 "//input[@id='periodInput']", price_action.get_timeline()
@@ -123,7 +122,7 @@ class BidProjectPage:
         )
 
     def get_description(self):
-        return self.action.get_text("//fl-bit[@class='ProjectDescription']//span//span")
+        return self.action.get_text(PRJ_DESC)
 
     def get_skill_tags(self):
         tags_el = self.action.get_all_elements(
