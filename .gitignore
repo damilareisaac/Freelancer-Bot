@@ -4,3 +4,9 @@
 geckodriver.log
 .DS_Store
 bid_cache.json
+**.log.**
+*.log
+
+**.sonar_lock
+.scannerwork
+.vscode
