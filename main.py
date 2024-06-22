@@ -1,7 +1,7 @@
 from functools import partial
 from dotenv import load_dotenv
 import time
-
+import os
 from actions import DomAction
 from context import DriverContext
 from logs import get_logger
@@ -18,11 +18,16 @@ with DriverContext() as driver:
     driver.get("https://freelancer.com")
     action = DomAction(driver)
 
-    driver.add_cookie({"name": "GETAFREE_USER_ID", "value": "11122738"})
+    driver.add_cookie(
+        {
+            "name": "GETAFREE_USER_ID",
+            "value": os.environ.get("GETAFREE_USER_ID"),
+        }
+    )
     driver.add_cookie(
         {
             "name": "GETAFREE_AUTH_HASH_V2",
-            "value": "IxxJA8hhCirxtL0nascvqx7Gdi9XChYBEHmW%2F2C%2F%2FLw%3D",
+            "value": os.environ.get("GETAFREE_AUTH_HASH_V2"),
         }
     )
     while True:
@@ -39,5 +44,5 @@ with DriverContext() as driver:
                     print(e)
                     logger().info(f"Unable to complete bid on {link}")
                     continue
-        # wait 5 minutes before checking again
-        time.sleep(240)
+        # wait 3 minutes before checking again
+        time.sleep(180)
